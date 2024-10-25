@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 60px 165px;
+}
+.nav-ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.nav-li a {
+  text-decoration: none;
+  color: #2400ff;
+}
+.title-section {
+  display: flex;
+  gap: 8px;
+}
+.read-more-link {
+  color: #2400ff;
+}
+.list-section {
+  margin-left: 20px;
+}
+.audio-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.disc-list {
+  list-style: disc;
+}
+.price-strike {
+  color: #ff0000;
+}
+.image-text-section {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
