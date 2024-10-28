@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Assignment Day 2 Table</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>HTML Learning</h1>
+      <br />
+      <nav>
+        <ul class="nav-ul">
+          <li class="nav-li"><a href="">Home</a></li>
+          <li class="nav-li"><a href="">About us</a></li>
+          <li class="nav-li"><a href="">Support</a></li>
+          <li class="nav-li"><a href="">Gallery</a></li>
+          <li class="nav-li"><a href="">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <br />
+    <hr />
+    <br />
+
+    <main>
+      <section>
+        <h2>Playing HTML Table</h2>
+      </section>
+      <br />
+      <hr />
+      <br />
+      <br />
+      <section>
+        <table class="table" border="1">
+          <thead>
+            <tr class="table-row">
+              <th colspan="12"><h2>Grocery Items Bill</h2></th>
+            </tr>
+            <tr class="table-row">
+              <th colspan="3"><h4>Item Name</h4></th>
+              <th colspan="2"><h4>Quantity</h4></th>
+              <th colspan="2"><h4>Price</h4></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="table-data" colspan="3"><h5>Potatoes</h5></td>
+              <td class="table-data" colspan="2"><h5>50</h5></td>
+              <td class="table-data" colspan="2"><h5>NRS. 500.00</h5></td>
+            </tr>
+            <tr>
+              <td class="table-data" colspan="3">
+                <h5>Nuts and other stuffs</h5>
+              </td>
+              <td class="table-data" colspan="2"><h5>100</h5></td>
+              <td class="table-data" colspan="2"><h5>NRS. 1400.00</h5></td>
+            </tr>
+            <tr>
+              <td class="table-data" colspan="3">
+                <h5>Green and Red Onions</h5>
+              </td>
+              <td class="table-data" colspan="2"><h5>30</h5></td>
+              <td class="table-data" colspan="2"><h5>NRS. 2500.00</h5></td>
+            </tr>
+            <tr>
+              <td class="table-data" colspan="5"><h5>Total Price:</h5></td>
+              <td class="table-data" colspan="2"><h5>NRS. 3400.00</h5></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <br />
+      <br />
+      <section>
+        <table align="center" border="1" class="table">
+          <thead>
+            <tr class="table-row">
+              <th colspan="2"><h2>Seminar Day Schedule</h2></th>
+            </tr>
+          </thead>
+          <tbody align="center">
+            <tr class="table-row">
+              <td><h4>Day</h4></td>
+              <td><h4>Schedule</h4></td>
+            </tr>
+            <tr>
+              <td rowspan="2"><h5>Monday</h5></td>
+              <td class="table-data"><h5>07:00 AM - 11:00 AM</h5></td>
+            </tr>
+            <tr>
+              <td class="table-data"><h5>4:00 PM - 08:00 PM</h5></td>
+            </tr>
+            <tr>
+              <td rowspan="2"><h5>Tuesday</h5></td>
+              <td class="table-data"><h5>06:00 AM - 10:00 AM</h5></td>
+            </tr>
+            <tr>
+              <td class="table-data"><h5>03:00 PM - 11:00 PM</h5></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </body>
+</html>

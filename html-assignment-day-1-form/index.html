@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Assignment Day 2 Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h2>HTML Learning</h2>
+      <br />
+      <nav>
+        <ul class="nav-ul">
+          <li class="nav-li"><a href="">Home</a></li>
+          <li class="nav-li"><a href="">About us</a></li>
+          <li class="nav-li"><a href="">Support</a></li>
+          <li class="nav-li"><a href="">Gallery</a></li>
+          <li class="nav-li"><a href="">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <br />
+    <hr />
+    <br />
+
+    <main>
+      <section>
+        <h1 style="font-size: 48px">HTML Form</h1>
+      </section>
+      <br />
+      <hr />
+      <br />
+      <br />
+      <section>
+        <form style="width: 25%; gap: 10px">
+          <h2>Personal Details</h2>
+          <br />
+          <br />
+          <div
+            style="
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+            "
+          >
+            <label for="name">Name</label> <input type="text" id="name" />
+          </div>
+          <br />
+          <div
+            style="
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+            "
+          >
+            <label for="email">Email</label>
+            <input type="email" id="email" />
+          </div>
+          <br />
+          <div
+            style="
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+            "
+          >
+            <label for="location">Location</label>
+            <input type="text" id="location" />
+          </div>
+          <br />
+          <div
+            style="
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+            "
+          >
+            <label for="gender">Gender</label>
+            <div>
+              <input
+                type="radio"
+                id="male"
+                name="gender"
+                value="male"
+                checked
+              />
+              <label for="male">Male</label>
+              <input type="radio" id="female" name="gender" value="female" />
+              <label for="female">Female</label>
+            </div>
+          </div>
+          <br />
+          <div
+            style="
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+            "
+          >
+            <label for="birthday">Birthday</label>
+            <input type="date" id="birthday" />
+          </div>
+          <br />
+          <div
+            style="
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+            "
+          >
+            <label for="country">Country</label>
+            <select name="country" id="country">
+              <option value="" disabled selected>Select Country</option>
+              <option value="india">India</option>
+              <option value="usa">USA</option>
+            </select>
+          </div>
+          <br />
+          <div
+            style="
+              display: flex;
+
+              justify-content: space-between;
+            "
+          >
+            <label for="other-information">Other Information</label>
+            <textarea
+              name="other-information"
+              id="other-information"
+              cols="22"
+              rows="5"
+            ></textarea>
+          </div>
+          <br />
+          <div
+            style="
+              display: flex;
+              align-items: center;
+
+              gap: 10px;
+              margin-left: 207px;
+            "
+          >
+            <input type="checkbox" name="newsletter" id="newsletter" />
+            <label for="newsletter" style="white-space: nowrap"
+              >I want to receive newsletter</label
+            >
+          </div>
+          <br />
+          <div style="display: flex; justify-content: flex-end">
+            <button>Submit</button>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
