@@ -31,13 +31,21 @@ main {
   flex-direction: column;
   align-items: end;
 }
+.text-line-height {
+  line-height: 1.5;
+}
+.contact-information-link {
+  padding: 12px;
+  font-size: 18px;
+  color: #0f3beb;
+}
 .about-me {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 .light-text {
-  color: lightgray;
+  color: #585858;
 }
 :where(.experience-title, .education-title) {
   display: flex;
