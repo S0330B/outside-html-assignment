@@ -10,9 +10,7 @@ body {
   flex-direction: column;
   gap: 20px;
 }
-footer {
-  text-align: center;
-}
+
 .text-red {
   color: red;
 }
